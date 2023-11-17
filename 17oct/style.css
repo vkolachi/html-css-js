@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#eg1{
+    /* color property sets the color of the text */
+    color: hsl(0, 65%, 47%);
+    /* 
+    Multiple ways to provide a color value
+    1. Named colors (147 named colors) imp
+    2. rgb
+    3. rgba imp
+    4. hsl(hue, saturation, lightness)
+    5. Hexcode imp
+     */
+
+     text-align: justify;
+     text-transform :capitalize;
+     line-height: 100%;
+}
+
+#eg2{
+    color: blue;
+    text-decoration:red line-through;
+
+}
+
+#eg3{
+    text-decoration: none;
+    color: brown;
+}
+
+#eg4{
+    color: white;
+    text-shadow: 0px 0px 10px blue;
+}
+
+
+#eg5{
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* 
+    famous fonts in 2023:
+    1. Inter
+    2. Poppins
+    */
+    /* font-style: italic; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#eg7{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#eg6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    /* border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: pink; */
+
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+    border-top: 10px solid pink;
+    /* it is a shorthand way of providing border */
+}
+
+#eg8{
+    border-style: none;
+}
+
+#eg9{
+    width: 50%;
+    /* 
+    1. Absolute (mm, cm, px)
+    2. Relative (%, viewport)
+     */
+    background-color: blue;
+}
+
+#eg10{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+#eg11{
+    width: 50%;
+    background-color: yellow;
+}
+
+#eg12{
+    background-color: pink;
+    width: 50vw;
+}
+
+#eg13{
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
+}
+
+

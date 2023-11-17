@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+}
+
+#sidebar {
+  flex: 1;
+  background-color: #000;
+}
+
+#mainbar {
+  flex: 5;
+  background: linear-gradient(
+    180deg,
+    #222 0%,
+    #1f1f1f 11.64%,
+    #171717 25.66%,
+    #161616 32.94%,
+    #151515 35.98%,
+    #131313 44.89%,
+    #121212 55.22%,
+    #121212 75.34%,
+    #121212 85.45%,
+    rgba(18, 18, 18, 0) 100%
+  );
+}
+
+#player {
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  background-color: #181818;
+  bottom: 0px;
+}
+
+.card1 {
+  width: 362px;
+  height: 100px;
+  border-radius: 4px;
+  background: #303030;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.card1>img{
+    margin-right: 30px;
+}
+
+.lists{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#linear{
+  width: 300px;
+  height: 300px;
+  border: 10px solid red;
+  /* background: linear-gradient(direction,color_stop1, color_stop2); */
+  background: linear-gradient(to right, red, green, blue, pink);
+}

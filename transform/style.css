@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-top: 10px solid red;
+    transition: all 1s linear;
+}
+/* how can we scale it only on X - Axis in only +ve direction */
+.box:hover{
+    transform: rotateZ(45deg);
+}

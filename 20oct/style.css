@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid aqua;
+    font-size: 20px;
+    font-weight: 900;
+}
+.red{
+    background-color: red;
+    height: 300px;
+    flex: 1;
+}
+.green{
+    background-color: green;
+    height: 30px;
+    flex:5;
+}
+.yellow{
+    background-color: yellow;
+    height: 100px;
+}
+.blue{
+    background-color: blue;
+}
+
+#container1{
+    display: flex;
+    /*
+    The flex container can have various
+    properties that will control the behaviour
+    of the flex items
+    */
+    /* height: 100vh; */
+    /* flex-direction: column-reverse; */
+    /* border: 10px solid blue; */
+    /* flex-wrap: wrap; */
+    /* This values allows flex items to wrap onto multiple 
+    lines if they exceed the width of th container. */
+    justify-content:center;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+#container2{
+    display: flex;
+    justify-content: left;
+}
+#container3{
+    display: flex;
+    justify-content: right;
+}
+#container4{
+    display: flex;
+    justify-content: space-between;
+}
+#container5{
+    display: flex;
+    justify-content: space-around;
+}
+#container6{
+    display: flex;
+    justify-content: space-evenly;
+}
+

@@ -1,0 +1,63 @@
+.grid{
+    display:grid;
+    width: 50vw;
+    height: 50vh;
+    border: 10px solid black;
+    /* fixed sizes */
+    /* grid-template-columns: repeat(5,50px); */
+    /* fractional sizes */
+    /* grid-template-columns: 1fr 10fr 3fr; */
+    /* percentages */
+    /* grid-template-columns: 10% 20% 30%; */
+    /* auto */
+    /* takes only that much space which is needed by the content. it lets the browser decide */
+    /* grid-template-columns: 10% 90% auto; */
+    /* repeat function */
+    /* grid-template-columns:repeat(10,40px) ; */
+    /* combination */
+    /* grid-template-columns: 20% repeat(4,5%) 1fr 10% ; */
+    /* grid template column is used to define the structure
+    and width of columns as well as control their flexibility */
+    /* gap: 10px; */
+    /* grid-template-rows: repeat(5,50px); */
+    grid-template-columns: 50px 1fr 20%;
+    grid-template-rows: 1fr 1fr 2fr;
+    gap: 10px;
+    grid-template-areas: 
+    "one two three"
+    "one two four"
+    "one two five";
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+#item-1{
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    /* grid-row: 1 / 4; */
+    grid-area: one;
+}
+#item-2{
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    /* grid-row: 1/ 4; */
+    grid-area: two;
+}
+#item-3{
+    grid-area: three;
+}
+#item-4{
+    grid-area: four;
+}
+#item-5{
+    grid-area: five;
+}

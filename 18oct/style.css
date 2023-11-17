@@ -1,0 +1,89 @@
+#eg1 {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  /* one value */
+  /* margin: 30px; */
+  /* two value */
+  /* margin: y-axis x-axis */
+  /* margin: 30px 80px; */
+  /* three values */
+  /* margin: top left/right bottom */
+  /* margin: 30px 100px 10px; */
+  /* four values */
+  /* margin: 10px 30px 50px 70px; */
+  /* margin-top:100px;
+    margin-left: 50px; */
+  /* margin: 50px; */
+  margin-inline: 30px;
+}
+
+#eg2 {
+  margin: 50px;
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+}
+
+#eg3 {
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  /* one value */
+  /* padding: 30px; */
+  /* two value */
+  /* padding: y-axis x-axis */
+  /* padding: 20px 50px; */
+  /* three values */
+  /* padding: top left/right bottom */
+  /* padding: 10px 50px 20px; */
+  /* four values */
+  /* padding: 10px 30px 50px 70px; */
+  /* padding-left: 30px;
+    padding-top: 50px; */
+  /* padding-inline: 30px; */
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+#eg4 > li {
+  list-style-type: upper-alpha;
+  /* - disc: Filled circle (default for unordered lists).
+- circle: Hollow circle.
+- square: Filled square.
+- decimal: Decimal numbers (1, 2, 3, ...).
+- decimal-leading-zero: Decimal numbers with leading zeros (01, 02, 03, ...).
+- lower-alpha: Lowercase alphabets (a, b, c, ...).
+- upper-alpha: Uppercase alphabets (A, B, C, ...).
+- lower-roman: Lowercase Roman numerals (i, ii, iii, ...).
+- upper-roman: Uppercase Roman numerals (I, II, III, ...).
+- none: No marker (removes the marker). */
+/* list-style-position: inside; */
+/* list-style-image: url("https://images.unsplash.com/photo-1697316346921-d89d1d388029?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+}
+table{
+    border: 5px solid blue;
+    border-collapse: collapse;
+    width: 500px;
+    height: 400px;
+}
+
+
+td,th{
+    border: 5px solid blue;
+    text-align: center;
+    vertical-align: bottom;
+}
+tr:nth-child(1){
+    background-color: pink;
+}
+tr:nth-child(2){
+    background-color: red;
+}
+tr:nth-child(odd){
+    background-color: beige;
+}
+
+tr>td:nth-child(1){
+    background-color: aqua;
+}
